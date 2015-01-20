@@ -39,7 +39,6 @@ img {
     
     -webkit-animation: stars 5s ease-in-out infinite;
     animation: stars 5s ease-in-out infinite;
-    transform: scale(1.05,1.05);
 }
 
 @-webkit-keyframes stars {
@@ -90,9 +89,9 @@ img {
 
 
 @-webkit-keyframes space-ship {
-    0% { -webkit-transform: translateY(0); }
-    20% { -webkit-transform: translateX(100px) rotate(-35deg) scale(1.05,1.05); }
-    40% { -webkit-transform: translateY(150px) scale(2.05,2.05); }
+    0% { -webkit-transform: translateY(0) scale(1.05,1.05); }
+    20% { -webkit-transform: translateX(100px) rotate(-35deg) scale(2.05,2.05); }
+    40% { -webkit-transform: translateY(150px) scale(1.05,1.05); }
     70% { -webkit-transform: translateX(200px) rotate(240deg); }
     85% { -webkit-transform: translateY(300px); }
     90% { -webkit-transform: translateX(-200px); }
@@ -100,9 +99,9 @@ img {
 }
 
 @keyframes space-ship {
-    0% { transform: translateY(0); }
-    20% { transform: translateX(100px) rotate(-35deg) scale(1.05,1.05); }
-    40% { transform: translateY(150px) scale(2.05,2.05); }
+    0% { transform: translateY(0) scale(1.05,1.05); }
+    20% { transform: translateX(100px) rotate(-35deg) scale(2.05,2.05); }
+    40% { transform: translateY(150px) scale(1.05,1.05); }
     70% { transform: translateX(200px) rotate(240deg); }
     85% { transform: translateY(300px); }
     90% { transform: translateX(-200px); }
